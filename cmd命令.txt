@@ -1,0 +1,8 @@
+转换为csv：
+START /wait "" "C:\Program Files\Pico Technology\PicoScope 7 T&M Stable\PicoScope.exe" BatchConvert "D:\Code\psdatatocsv\input_psdata" "D:\Code\psdatatocsv\output_csv" .csv
+
+转换为txt：
+START /wait "" "C:\Program Files\Pico Technology\PicoScope 7 T&M Stable\PicoScope.exe" BatchConvert "D:\Code\psdatatocsv\input_psdata" "D:\Code\psdatatocsv\output_txt" .txt
+
+转换为mat：
+START /wait "" "C:\Program Files\Pico Technology\PicoScope 7 T&M Stable\PicoScope.exe" BatchConvert "D:\Code\psdatatocsv\input_psdata" "D:\Code\psdatatocsv\output_mat" .mat
